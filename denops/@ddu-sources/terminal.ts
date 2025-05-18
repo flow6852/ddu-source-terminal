@@ -3,7 +3,6 @@ import {
   Item,
 } from "https://deno.land/x/ddu_vim@v1.1.0/types.ts";
 import { Denops, fn } from "https://deno.land/x/ddu_vim@v1.1.0/deps.ts";
-import { relative } from "https://deno.land/std@0.123.0/path/mod.ts#^";
 
 type ActionData = {
   bufnr: number;
