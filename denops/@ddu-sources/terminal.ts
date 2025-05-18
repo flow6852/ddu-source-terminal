@@ -30,7 +30,7 @@ export class Source extends BaseSource<Params> {
       return {
         word: `${bufnr_} ${name_}`,
         action: {
-          bufNr: bufnr_,
+          bufnr: bufnr_,
           path: path,
         }
       };
