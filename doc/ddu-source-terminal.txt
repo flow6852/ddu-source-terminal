@@ -1,0 +1,39 @@
+*ddu-source-terminal.txt*	Terminal source for ddu.vim
+
+Author: flow_6852
+License: MIT license
+
+CONTENTS                                            *ddu-source-terminal-contents*
+
+Introduction		|ddu-source-terminal-introduction|
+Install			|ddu-source-terminal-install|
+Examples		|ddu-source-terminal-examples|
+Params			|ddu-source-terminal-params|
+
+==============================================================================
+INTRODUCTION                                    *ddu-source-terminal-introduction*
+
+This source collects terminal buffers in that isn't hidden.
+
+==============================================================================
+INSTALL                                              *ddu-source-terminal-install*
+
+Please install both "ddu.vim" and "denops.vim" and "ddu-kind-terminal".
+
+https://github.com/Shougo/ddu.vim
+https://github.com/vim-denops/denops.vim
+https://github.com/flow6852/ddu-kind-terminal
+
+==============================================================================
+EXAMPLES                                            *ddu-source-terminal-examples*
+>
+	call ddu#start(#{ sources: [#{ name: 'terminal' }] })
+	
+==============================================================================
+PARAMS                                                *ddu-source-terminal-params*
+
+
+==============================================================================
+
+
+vim:tw=78:ts=8:ft=help:norl:noet:fen:noet:
